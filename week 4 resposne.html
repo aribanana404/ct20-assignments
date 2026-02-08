@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Week 4 Response</title>
+  <meta property="og:title" content="Week 4 Response">
+  <meta name="twitter:title" content="Week 4 Response">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://assets.jotbird.com/preview2.css">
+  <link rel="stylesheet" href="https://assets.jotbird.com/katex.min.css">
+  <style>
+:where(h1, h2, h3, h4, h5, h6) .header-anchor {
+  margin-left: 0.3em;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.15s ease-in-out;
+  color: var(--jb-muted, currentColor);
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+}
+:where(h1, h2, h3, h4, h5, h6):hover .header-anchor,
+.header-anchor:focus-visible {
+  opacity: 1;
+}
+.header-anchor {
+  font-size: 0.9em;
+  user-select: none;
+}
+.header-anchor__icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  stroke-width: 1.4;
+}
+</style>
+</head>
+<body>
+
+  <main class="publish">
+    <h1 id="week-4-response">Week 4 Response <a class="header-anchor" href="#week-4-response" aria-hidden="true">¶</a></h1>
+<p>I had a lot of difficulty with making my clock. I already had limited coding experience and I haven't had the slightest clue on where to begin. I knew I wanted to create a sun-inspired clock with dials that represented the hours/minutes of the day, but <em>again</em>, didn't know where to start.</p>
+<p>What got me started was drawing everything out, not worrying about the coding aspect. I then wrote down what I can do; I can draw the sun and the inner circles and teh random dots (representing stars) in the background using a for loop. Then came the tricky part which was trying to get triangles all over the circle, which involved a scary amount of trig that I hoped to abandoned in high school. Alas.</p>
+<p>It took hours to figure out what formulas I needed and how to translate that into p5js. I had to make a separate function to get 3 sets of coordinates for the triangles around the main circle. Using the two formulas x = h + r * cos(Theta) and y = k + r * sin(Theta). By plugging in the coordinates for the circle's center and tweaking the offset variable (how stubby the triangles are), the hard part was over! Hooray!</p>
+
+  </main>
+
+  <div class="jb-watermark">
+    <img src="https://assets.jotbird.com/logo-black-white(2).svg" alt="JotBird Logo">
+    <div class="jb-watermark-text">
+      Published with <a href="https://www.jotbird.com" target="_blank" rel="noopener noreferrer">JotBird</a>
+    </div>
+  </div>
+
+</body>
+</html>
