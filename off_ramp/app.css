@@ -81,16 +81,16 @@ h3 {
   padding: 1rem 0;
   width: 20rem;
   text-align: center;
-  border: 0.1rem solid #56a5eb;
+  border: 0.1rem solid #054052;
   margin-bottom: 1rem;
   text-decoration: none;
-  color: #56a5eb;
-  background-color: white;
+  color: #054052;
+  background-color: #B3DCE8;
 }
 
 .btn:hover {
   cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(27, 232, 210, 0.8);
   transform: translateY(-0.1rem);
   transition: transform 150ms;
 }
