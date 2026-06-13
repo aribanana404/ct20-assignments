@@ -54,6 +54,13 @@ function addStar() {
 
 Array(200).fill().forEach(addStar);
 
+const kittyTexture = new THREE.TextureLoader().load('milk_kitty.jpeg');
+
+const kittyKat = new THREE.Mesh(new THREE.BoxGeometry(4, 4, 4), new THREE.MeshBasicMaterial({ map: kittyTexture }));
+
+scene.add(kittyKat);
+
+
 function animate() {
   requestAnimationFrame(animate);
   renderer.render(scene, camera);
